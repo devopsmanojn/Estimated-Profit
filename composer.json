@@ -1,0 +1,21 @@
+{
+    "name": "devopsmanoj/module-estimated-profit",
+    "description": "N/A",
+    "require": {
+        "php": "~7.0.0|~7.0.26|~7.1|~7.2|~7.3"
+    },
+    "type": "magento2-module",
+    "version": "1.1.5",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Devopsmanoj\\EstimatedProfit\\": ""
+        }
+    }
+}

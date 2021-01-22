@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="product_columns">
+        <column name="estimated_profit" class="Devopsmanoj\EstimatedProfit\Ui\Component\Listing\Column\Profit">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="sortOrder" xsi:type="number">99</item>
+                    <item name="filter" xsi:type="string">text</item>
+                    <item name="label" translate="true" xsi:type="string">Estimated Profit</item>
+                </item>
+            </argument>
+        </column>
+    </columns>
+</listing>
